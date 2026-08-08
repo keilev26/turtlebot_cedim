@@ -10,10 +10,10 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Source ROS2 if not already sourced
 if [ -z "$ROS_DISTRO" ]; then
-    if [ -f /opt/ros/jazzy/setup.bash ]; then
-        source /opt/ros/jazzy/setup.bash
+    if [ -f /opt/ros/humble/setup.bash ]; then
+        source /opt/ros/humble/setup.bash
     else
-        echo "ERROR: ROS2 Jazzy not found at /opt/ros/jazzy/"
+        echo "ERROR: ROS2 Humble not found at /opt/ros/humble/"
         return 1
     fi
 fi

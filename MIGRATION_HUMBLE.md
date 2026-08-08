@@ -96,7 +96,7 @@ sudo usermod -aG docker $USER
 
 ### Paso 2: Crear el Dockerfile de Humble
 
-Crear `~/proyects/Unitree/lidar_ws/Dockerfile.humble`:
+Crear `~/turtlebot_proyecto/Dockerfile.humble`:
 
 ```dockerfile
 FROM osrf/ros:humble-desktop-full
@@ -135,7 +135,7 @@ CMD ["/bin/bash"]
 ### Paso 3: Construir la imagen
 
 ```bash
-cd ~/proyects/Unitree/lidar_ws
+cd ~/turtlebot_proyecto
 docker build -t lidar-humble \
   --build-arg UID=$(id -u) --build-arg GID=$(id -g) \
   -f Dockerfile.humble .
@@ -143,7 +143,7 @@ docker build -t lidar-humble \
 
 ### Paso 4: Script para lanzar el container
 
-Crear `~/proyects/Unitree/lidar_ws/docker_run.sh`:
+Crear `~/turtlebot_proyecto/docker_run.sh`:
 
 ```bash
 #!/bin/bash
@@ -158,13 +158,13 @@ docker run -it --rm \
     -e DISPLAY=$DISPLAY \
     -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
     -v $HOME/.Xauthority:/home/rosuser/.Xauthority:ro \
-    -v /home/calebcamargo/proyects/Unitree:/home/rosuser/Unitree:rw \
+    -v /home/cedim/turtlebot_proyecto:/home/rosuser/turtlebot_proyecto:rw \
     lidar-humble \
     /bin/bash -c "
         # Permitir acceso X11
         xhost +local: 2>/dev/null || true
         # Construir el workspace
-        cd /home/rosuser/Unitree/lidar_ws
+        cd /home/rosuser/turtlebot_proyecto
         rm -rf build/ install/ log/
         colcon build --symlink-install
         source install/setup.bash
@@ -246,20 +246,20 @@ sudo apt install -y \
 ### Paso 3: Verificar que el SDK está presente
 
 ```bash
-ls ~/proyects/Unitree/unilidar_sdk2-2.0.10/unitree_lidar_sdk/lib/x86_64/libunilidar_sdk2.a
+ls ~/turtlebot_proyecto/unilidar_sdk2-2.0.10/unitree_lidar_sdk/lib/x86_64/libunilidar_sdk2.a
 ```
 
 ### Paso 4: Actualizar `setup_env.sh` para Humble
 
 ```bash
-# Cambiar en lidar_ws/setup_env.sh:
+# Cambiar en setup_env.sh:
 # /opt/ros/jazzy/setup.bash → /opt/ros/humble/setup.bash
 ```
 
 ### Paso 5: Build limpio
 
 ```bash
-cd ~/proyects/Unitree/lidar_ws
+cd ~/turtlebot_proyecto
 rm -rf build/ install/ log/
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
@@ -335,7 +335,7 @@ Una vez en Humble, la instalación de SLAM es directa:
 ### Point-LIO (recomendado para L2)
 
 ```bash
-cd ~/proyects/Unitree
+cd ~/turtlebot_proyecto/..
 git clone https://github.com/dfloreaa/point_lio_ros2.git
 
 # Instalar livox_ros_driver2 (dependencia)
@@ -356,7 +356,7 @@ ros2 launch point_lio_ros2 mapping_unilidar_l2.launch.py
 ### FAST-LIO2
 
 ```bash
-cd ~/proyects/Unitree
+cd ~/turtlebot_proyecto/..
 git clone https://github.com/Ericsii/FAST_LIO_ROS2.git --recursive
 cd FAST_LIO_ROS2
 source /opt/ros/humble/setup.bash
@@ -373,7 +373,7 @@ Si algo falla, volver es trivial porque el código es el mismo:
 ```bash
 # En Docker: simplemente no usar el container de Humble
 # En nativo (dual boot): reiniciar en Ubuntu 24.04
-cd ~/proyects/Unitree/lidar_ws
+cd ~/turtlebot_proyecto
 source setup_env.sh  # que apunta a /opt/ros/jazzy
 colcon build --symlink-install
 ```

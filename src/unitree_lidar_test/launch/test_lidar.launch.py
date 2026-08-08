@@ -80,7 +80,7 @@ def generate_launch_description():
     )
 
     # ── Rosbag recording (optional) ────────────────────────────
-    bag_base = '/home/calebcamargo/unitree_lidar_data/bags'
+    bag_base = os.path.expanduser('~/unitree_lidar_data/bags')
     bag_record = ExecuteProcess(
         condition=IfCondition(LaunchConfiguration('record')),
         cmd=[

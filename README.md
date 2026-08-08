@@ -1,17 +1,22 @@
 # Unitree 4D LiDAR L2 — ROS2 Real-Time Testing
 
-Proyecto ROS2 Jazzy para pruebas en tiempo real del **Unitree 4D LiDAR L2**.
+Proyecto ROS2 Humble para pruebas en tiempo real del **Unitree 4D LiDAR L2**.
 
 ## Estructura
 
 ```
-lidar_ws/                              # ROS2 workspace
+turtlebot_proyecto/                    # ROS2 workspace + SDK integrado
 ├── connect_lidar.sh                   # Configurar IP + cargar workspace
 ├── setup_env.sh                       # Solo cargar entorno
 ├── check_udp.py                       # Diagnóstico de conexión UDP
 ├── README.md
+├── MIGRATION_HUMBLE.md
+├── unilidar_sdk2-2.0.10/             # [SDK] Unitree SDK oficial
+│   ├── unitree_lidar_ros2/            # Driver C++ (fuente original)
+│   ├── unitree_lidar_ros/             # Driver ROS1
+│   └── unitree_lidar_sdk/             # Librería core + static lib
 ├── src/
-│   ├── unitree_lidar_ros2/            # [C++] Driver oficial del SDK
+│   ├── unitree_lidar_ros2 →           # Symlink → ../unilidar_sdk2-2.0.10/.../unitree_lidar_ros2
 │   └── unitree_lidar_test/            # [Python] Testing y monitoreo
 │       ├── unitree_lidar_test/
 │       │   ├── lidar_monitor.py       # Stats en tiempo real
@@ -22,14 +27,13 @@ lidar_ws/                              # ROS2 workspace
 │       │   └── test_lidar.launch.py   # Launch de testing
 │       └── config/
 │           └── params_udp.yaml
-└── ../unilidar_sdk2-2.0.10/          # SDK original (fuera del ws)
 ```
 
 ## Requisitos
 
-- **ROS2 Jazzy** (Ubuntu 24.04)
+- **ROS2 Humble** (Ubuntu 22.04)
 - **PCL** (`libpcl-dev`)
-- Paquetes ROS2: `ros-jazzy-pcl-conversions`, `ros-jazzy-tf2`, `ros-jazzy-sensor-msgs`, `ros-jazzy-rosbag2`
+- Paquetes ROS2: `ros-humble-pcl-conversions`, `ros-humble-tf2`, `ros-humble-sensor-msgs`, `ros-humble-rosbag2`
 
 ## Quick Start
 
@@ -142,16 +146,16 @@ Hay 2 opciones principales compatibles con el Unitree L2 en ROS2:
 ✅ Tiene configuración explícita para Unitree L2 (`unilidar_l2.yaml`)  
 ✅ Usa los mismos topics `/unilidar/cloud` + `/unilidar/imu`  
 ✅ Odometría LiDAR-Inercial en tiempo real  
-⚠️ Probado en Humble — requiere adaptación a Jazzy
+✅ Probado en Humble — compatible con este proyecto
 
 ```bash
 # Instalación
-cd ~/proyects/Unitree
+cd ~/turtlebot_proyecto/..
 git clone https://github.com/dfloreaa/point_lio_ros2.git
 cd point_lio_ros2
 
 # Instalar dependencias
-sudo apt install ros-jazzy-pcl-ros ros-jazzy-pcl-conversions libeigen3-dev
+sudo apt install ros-humble-pcl-ros ros-humble-pcl-conversions libeigen3-dev
 # NOTA: Necesita livox_ros_driver2 (incluso sin Livox)
 git clone https://github.com/Ericsii/livox_ros_driver2.git
 # Build livox_ros_driver2 primero, luego point_lio_ros2
