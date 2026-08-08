@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: unitree-lidar-test
+Version: 0.1.0
+Summary: Real-time testing and visualization for Unitree 4D LiDAR L2
+Maintainer: Caleb Camargo
+Maintainer-email: calebcamargo@example.com
+License: MIT

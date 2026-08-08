@@ -1,0 +1,6 @@
+source;share/unitree_lidar_test/hook/pythonpath.dsv
+source;share/unitree_lidar_test/hook/pythonpath.sh
+source;share/unitree_lidar_test/hook/ament_prefix_path.dsv
+source;share/unitree_lidar_test/hook/ament_prefix_path.sh
+source;../../build/unitree_lidar_test/share/unitree_lidar_test/hook/pythonpath_develop.dsv
+source;../../build/unitree_lidar_test/share/unitree_lidar_test/hook/pythonpath_develop.sh

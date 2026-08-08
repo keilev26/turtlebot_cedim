@@ -1,0 +1,37 @@
+# Unitree 4D LiDAR L2 — UDP Configuration
+# Default IP and ports for Ethernet (UDP) communication mode
+#
+# To find your LiDAR's IP:
+#   1. Connect LiDAR via Ethernet
+#   2. Set your PC's IP to the same subnet (e.g., 192.168.1.2)
+#   3. The default LiDAR IP is 192.168.1.62
+
+unitree_lidar_ros2_node:
+  ros__parameters:
+    # Connection mode: 0 = UDP (Ethernet), 1 = Serial (UART)
+    initialize_type: 2   # 2 = auto-initialize
+    work_mode: 0          # 0 = UDP, 1 = Serial
+
+    # Timestamp source
+    use_system_timestamp: true
+
+    # Point cloud filters
+    range_min: 0.05       # Minimum range in meters
+    range_max: 30.0       # Maximum range in meters (L2 spec: 0.05-30m)
+    cloud_scan_num: 18    # Number of scans to accumulate per cloud message
+
+    # Serial mode settings (ignored when work_mode=0)
+    serial_port: '/dev/ttyACM0'
+    baudrate: 4000000
+
+    # UDP mode settings
+    lidar_port: 6101      # LiDAR data port
+    lidar_ip: '192.168.1.62'  # LiDAR IP address
+    local_port: 6201      # Local receive port
+    local_ip: '192.168.1.2'   # Your PC's IP address
+
+    # TF frames and topic names
+    cloud_frame: 'unilidar_lidar'
+    cloud_topic: 'unilidar/cloud'
+    imu_frame: 'unilidar_imu'
+    imu_topic: 'unilidar/imu'

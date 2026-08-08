@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.000281] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.000303] (unitree_lidar_test) JobQueued: {'identifier': 'unitree_lidar_test', 'dependencies': OrderedDict()}
+[0.000315] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.009024] (unitree_lidar_test) JobStarted: {'identifier': 'unitree_lidar_test'}
+[0.012333] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.012567] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2'], 'cwd': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3439-0-calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB_TIME207788', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'GZ_SIM_RESOURCE_PATH': '/home/calebcamargo/proyects/quadruped/testURDF/cheetah/mini-cheetah-gazebo-urdf/yobo_model:/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'calebcamargo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/calebcamargo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/calebcamargo/.nvm/versions/node/v22.15.0/bin', 'NVM_INC': '/home/calebcamargo/.nvm/versions/node/v22.15.0/include/node', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'MANAGERPID': '2891', 'SYSTEMD_EXEC_PID': '3439', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/calebcamargo/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9235', 'NVM_DIR': '/home/calebcamargo/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'CLAUDE_CODE_EFFORT_LEVEL': 'max', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'calebcamargo', 'JOURNAL_STREAM': '10:20118', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'calebcamargo', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/home/calebcamargo/miniconda3/condabin:/home/calebcamargo/.local/bin:/home/calebcamargo/.nvm/versions/node/v22.15.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/calebcamargo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/calebcamargo/.dotnet/tools', 'SESSION_MANAGER': 'local/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:@/tmp/.ICE-unix/3294,unix/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:/tmp/.ICE-unix/3294', 'INVOCATION_ID': '9777ed1b256d4e23911d3b87bb41689d', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'max', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'CLAUDE_PID': '10827', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/calebcamargo/.cache/dotnet_bundle_extract', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WW1XS3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/calebcamargo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:01e150e2-6ec0-48ff-8e4c-941d2735837e', 'ANTHROPIC_AUTH_TOKEN': 'sk-2ba42cc3006d4d7d80fe2a2c586b15b5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': '349a1069-fda3-493d-9005-5eaaf762580d', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/calebcamargo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/calebcamargo/.local/share/claude/versions/2.1.220', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CLAUDE_CODE_SUBAGENT_MODEL': 'deepseek-v4-flash', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099640] (-) TimerEvent: {}
+[0.175779] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.175909] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.175964] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.176009] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.179711] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.179872] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.179954] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.186390] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199727] (-) TimerEvent: {}
+[0.256503] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.263184] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.263298] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.263597] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.271949] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299868] (-) TimerEvent: {}
+[0.382532] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400016] (-) TimerEvent: {}
+[0.448211] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.492102] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500102] (-) TimerEvent: {}
+[0.537053] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.553429] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.574517] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.593345] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600168] (-) TimerEvent: {}
+[0.676817] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.680330] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700311] (-) TimerEvent: {}
+[0.746793] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.763571] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.785061] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800494] (-) TimerEvent: {}
+[0.872732] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.888480] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.900661] (-) TimerEvent: {}
+[0.905071] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[1.000771] (-) TimerEvent: {}
+[1.016845] (unitree_lidar_ros2) StderrLine: {'line': b'CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.017015] (unitree_lidar_ros2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.017065] (unitree_lidar_ros2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.017110] (unitree_lidar_ros2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.017152] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[1.017193] (unitree_lidar_ros2) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.017234] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[1.017274] (unitree_lidar_ros2) StderrLine: {'line': b'    /usr\n'}
+[1.017316] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[1.017358] (unitree_lidar_ros2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.017399] (unitree_lidar_ros2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.017440] (unitree_lidar_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.017480] (unitree_lidar_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.017521] (unitree_lidar_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.017560] (unitree_lidar_ros2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.017599] (unitree_lidar_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.017638] (unitree_lidar_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.017692] (unitree_lidar_ros2) StderrLine: {'line': b'  CMakeLists.txt:22 (find_package)\n'}
+[1.017740] (unitree_lidar_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.017782] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[1.018833] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.074068] (unitree_lidar_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test/build', '--no-deps', 'symlink_data'], 'cwd': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3439-0-calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB_TIME207788', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'GZ_SIM_RESOURCE_PATH': '/home/calebcamargo/proyects/quadruped/testURDF/cheetah/mini-cheetah-gazebo-urdf/yobo_model:/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'calebcamargo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/calebcamargo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/calebcamargo/.nvm/versions/node/v22.15.0/bin', 'NVM_INC': '/home/calebcamargo/.nvm/versions/node/v22.15.0/include/node', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'MANAGERPID': '2891', 'SYSTEMD_EXEC_PID': '3439', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/calebcamargo/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9235', 'NVM_DIR': '/home/calebcamargo/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'CLAUDE_CODE_EFFORT_LEVEL': 'max', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'calebcamargo', 'JOURNAL_STREAM': '10:20118', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'calebcamargo', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/home/calebcamargo/miniconda3/condabin:/home/calebcamargo/.local/bin:/home/calebcamargo/.nvm/versions/node/v22.15.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/calebcamargo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/calebcamargo/.dotnet/tools', 'SESSION_MANAGER': 'local/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:@/tmp/.ICE-unix/3294,unix/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:/tmp/.ICE-unix/3294', 'INVOCATION_ID': '9777ed1b256d4e23911d3b87bb41689d', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'max', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'CLAUDE_PID': '10827', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/calebcamargo/.cache/dotnet_bundle_extract', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WW1XS3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/calebcamargo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:01e150e2-6ec0-48ff-8e4c-941d2735837e', 'ANTHROPIC_AUTH_TOKEN': 'sk-2ba42cc3006d4d7d80fe2a2c586b15b5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': '349a1069-fda3-493d-9005-5eaaf762580d', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/calebcamargo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/calebcamargo/.local/share/claude/versions/2.1.220', 'PYTHONPATH': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CLAUDE_CODE_SUBAGENT_MODEL': 'deepseek-v4-flash', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.100854] (-) TimerEvent: {}
+[1.201010] (-) TimerEvent: {}
+[1.238705] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.238947] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[1.301114] (-) TimerEvent: {}
+[1.310334] (unitree_lidar_test) StdoutLine: {'line': b'running develop\n'}
+[1.401221] (-) TimerEvent: {}
+[1.459848] (unitree_lidar_test) StdoutLine: {'line': b'running egg_info\n'}
+[1.459990] (unitree_lidar_test) StdoutLine: {'line': b'creating unitree_lidar_test.egg-info\n'}
+[1.474466] (unitree_lidar_test) StdoutLine: {'line': b'writing unitree_lidar_test.egg-info/PKG-INFO\n'}
+[1.474646] (unitree_lidar_test) StdoutLine: {'line': b'writing dependency_links to unitree_lidar_test.egg-info/dependency_links.txt\n'}
+[1.474709] (unitree_lidar_test) StdoutLine: {'line': b'writing entry points to unitree_lidar_test.egg-info/entry_points.txt\n'}
+[1.474866] (unitree_lidar_test) StdoutLine: {'line': b'writing requirements to unitree_lidar_test.egg-info/requires.txt\n'}
+[1.474912] (unitree_lidar_test) StdoutLine: {'line': b'writing top-level names to unitree_lidar_test.egg-info/top_level.txt\n'}
+[1.474955] (unitree_lidar_test) StdoutLine: {'line': b"writing manifest file 'unitree_lidar_test.egg-info/SOURCES.txt'\n"}
+[1.501336] (-) TimerEvent: {}
+[1.505473] (unitree_lidar_test) StdoutLine: {'line': b"reading manifest file 'unitree_lidar_test.egg-info/SOURCES.txt'\n"}
+[1.505898] (unitree_lidar_test) StdoutLine: {'line': b"writing manifest file 'unitree_lidar_test.egg-info/SOURCES.txt'\n"}
+[1.522002] (unitree_lidar_test) StdoutLine: {'line': b'running build_ext\n'}
+[1.522099] (unitree_lidar_test) StdoutLine: {'line': b'Creating /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/lib/python3.12/site-packages/unitree-lidar-test.egg-link (link to .)\n'}
+[1.522543] (unitree_lidar_test) StdoutLine: {'line': b'Installing lidar_monitor script to /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/lib/unitree_lidar_test\n'}
+[1.522730] (unitree_lidar_test) StdoutLine: {'line': b'Installing pointcloud_saver script to /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/lib/unitree_lidar_test\n'}
+[1.522814] (unitree_lidar_test) StdoutLine: {'line': b'\n'}
+[1.522866] (unitree_lidar_test) StdoutLine: {'line': b'Installed /home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test\n'}
+[1.523018] (unitree_lidar_test) StdoutLine: {'line': b'running symlink_data\n'}
+[1.523072] (unitree_lidar_test) StdoutLine: {'line': b'creating /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/ament_index\n'}
+[1.523122] (unitree_lidar_test) StdoutLine: {'line': b'creating /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/ament_index/resource_index\n'}
+[1.523171] (unitree_lidar_test) StdoutLine: {'line': b'creating /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/ament_index/resource_index/packages\n'}
+[1.523219] (unitree_lidar_test) StdoutLine: {'line': b'symbolically linking /home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test/resource/unitree_lidar_test -> /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/ament_index/resource_index/packages\n'}
+[1.523268] (unitree_lidar_test) StdoutLine: {'line': b'symbolically linking /home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test/package.xml -> /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/unitree_lidar_test\n'}
+[1.523316] (unitree_lidar_test) StdoutLine: {'line': b'creating /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/unitree_lidar_test/launch\n'}
+[1.523395] (unitree_lidar_test) StdoutLine: {'line': b'symbolically linking /home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test/launch/lidar_udp.launch.py -> /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/unitree_lidar_test/launch\n'}
+[1.523452] (unitree_lidar_test) StdoutLine: {'line': b'creating /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/unitree_lidar_test/config\n'}
+[1.523496] (unitree_lidar_test) StdoutLine: {'line': b'symbolically linking /home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_test/config/params_udp.yaml -> /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_test/share/unitree_lidar_test/config\n'}
+[1.547315] (unitree_lidar_test) CommandEnded: {'returncode': 0}
+[1.554371] (unitree_lidar_test) JobEnded: {'identifier': 'unitree_lidar_test', 'rc': 0}
+[1.601438] (-) TimerEvent: {}
+[1.701618] (-) TimerEvent: {}
+[1.801818] (-) TimerEvent: {}
+[1.902078] (-) TimerEvent: {}
+[2.002414] (-) TimerEvent: {}
+[2.102692] (-) TimerEvent: {}
+[2.202960] (-) TimerEvent: {}
+[2.303200] (-) TimerEvent: {}
+[2.357574] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.366883] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[2.396731] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.397870] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.403297] (-) TimerEvent: {}
+[2.450721] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.454047] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  \n'}
+[2.464761] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[2.479580] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[2.503457] (-) TimerEvent: {}
+[2.603631] (-) TimerEvent: {}
+[2.703789] (-) TimerEvent: {}
+[2.803954] (-) TimerEvent: {}
+[2.823357] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.828189] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.904112] (-) TimerEvent: {}
+[3.004342] (-) TimerEvent: {}
+[3.104593] (-) TimerEvent: {}
+[3.168669] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.204688] (-) TimerEvent: {}
+[3.304883] (-) TimerEvent: {}
+[3.405100] (-) TimerEvent: {}
+[3.505334] (-) TimerEvent: {}
+[3.511322] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.605447] (-) TimerEvent: {}
+[3.705630] (-) TimerEvent: {}
+[3.805861] (-) TimerEvent: {}
+[3.851909] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.852794] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.853669] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.854597] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.855546] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.856466] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.856788] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[3.857147] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[3.858045] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.858956] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.859934] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.860889] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.861931] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.862942] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.864049] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.865030] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.866122] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.867157] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.868257] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.869148] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.869868] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[3.870225] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[3.870584] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[3.871472] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.872563] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.874615] (unitree_lidar_ros2) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:23 (find_package):\n'}
+[3.874733] (unitree_lidar_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.874803] (unitree_lidar_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.874855] (unitree_lidar_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.874902] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[3.874948] (unitree_lidar_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.874993] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[3.875039] (unitree_lidar_ros2) StderrLine: {'line': b'    /usr\n'}
+[3.875088] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[3.875133] (unitree_lidar_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.875178] (unitree_lidar_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.875225] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[3.884420] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[3.905929] (-) TimerEvent: {}
+[4.006099] (-) TimerEvent: {}
+[4.097839] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[4.106191] (-) TimerEvent: {}
+[4.140705] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.145271] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2\n'}
+[4.161716] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[4.162352] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[4.162977] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', '--', '-j12', '-l12'], 'cwd': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3439-0-calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB_TIME207788', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'GZ_SIM_RESOURCE_PATH': '/home/calebcamargo/proyects/quadruped/testURDF/cheetah/mini-cheetah-gazebo-urdf/yobo_model:/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'calebcamargo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/calebcamargo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/calebcamargo/.nvm/versions/node/v22.15.0/bin', 'NVM_INC': '/home/calebcamargo/.nvm/versions/node/v22.15.0/include/node', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'MANAGERPID': '2891', 'SYSTEMD_EXEC_PID': '3439', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/calebcamargo/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9235', 'NVM_DIR': '/home/calebcamargo/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'CLAUDE_CODE_EFFORT_LEVEL': 'max', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'calebcamargo', 'JOURNAL_STREAM': '10:20118', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'calebcamargo', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/home/calebcamargo/miniconda3/condabin:/home/calebcamargo/.local/bin:/home/calebcamargo/.nvm/versions/node/v22.15.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/calebcamargo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/calebcamargo/.dotnet/tools', 'SESSION_MANAGER': 'local/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:@/tmp/.ICE-unix/3294,unix/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:/tmp/.ICE-unix/3294', 'INVOCATION_ID': '9777ed1b256d4e23911d3b87bb41689d', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'max', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'CLAUDE_PID': '10827', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/calebcamargo/.cache/dotnet_bundle_extract', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WW1XS3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/calebcamargo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:01e150e2-6ec0-48ff-8e4c-941d2735837e', 'ANTHROPIC_AUTH_TOKEN': 'sk-2ba42cc3006d4d7d80fe2a2c586b15b5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': '349a1069-fda3-493d-9005-5eaaf762580d', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/calebcamargo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/calebcamargo/.local/share/claude/versions/2.1.220', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CLAUDE_CODE_SUBAGENT_MODEL': 'deepseek-v4-flash', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.200433] (unitree_lidar_ros2) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o\n'}
+[4.206292] (-) TimerEvent: {}
+[4.306431] (-) TimerEvent: {}
+[4.406601] (-) TimerEvent: {}
+[4.506763] (-) TimerEvent: {}
+[4.606994] (-) TimerEvent: {}
+[4.707227] (-) TimerEvent: {}
+[4.807463] (-) TimerEvent: {}
+[4.907711] (-) TimerEvent: {}
+[5.007927] (-) TimerEvent: {}
+[5.108105] (-) TimerEvent: {}
+[5.208290] (-) TimerEvent: {}
+[5.308549] (-) TimerEvent: {}
+[5.408723] (-) TimerEvent: {}
+[5.508887] (-) TimerEvent: {}
+[5.609074] (-) TimerEvent: {}
+[5.709253] (-) TimerEvent: {}
+[5.809489] (-) TimerEvent: {}
+[5.909673] (-) TimerEvent: {}
+[6.009914] (-) TimerEvent: {}
+[6.110158] (-) TimerEvent: {}
+[6.210329] (-) TimerEvent: {}
+[6.310505] (-) TimerEvent: {}
+[6.410747] (-) TimerEvent: {}
+[6.510976] (-) TimerEvent: {}
+[6.611155] (-) TimerEvent: {}
+[6.711392] (-) TimerEvent: {}
+[6.811609] (-) TimerEvent: {}
+[6.911784] (-) TimerEvent: {}
+[7.011944] (-) TimerEvent: {}
+[7.112121] (-) TimerEvent: {}
+[7.212364] (-) TimerEvent: {}
+[7.312616] (-) TimerEvent: {}
+[7.412788] (-) TimerEvent: {}
+[7.513029] (-) TimerEvent: {}
+[7.613222] (-) TimerEvent: {}
+[7.713471] (-) TimerEvent: {}
+[7.813719] (-) TimerEvent: {}
+[7.913961] (-) TimerEvent: {}
+[8.014188] (-) TimerEvent: {}
+[8.114363] (-) TimerEvent: {}
+[8.214592] (-) TimerEvent: {}
+[8.314843] (-) TimerEvent: {}
+[8.415085] (-) TimerEvent: {}
+[8.515316] (-) TimerEvent: {}
+[8.615546] (-) TimerEvent: {}
+[8.715794] (-) TimerEvent: {}
+[8.816033] (-) TimerEvent: {}
+[8.916275] (-) TimerEvent: {}
+[9.016464] (-) TimerEvent: {}
+[9.116700] (-) TimerEvent: {}
+[9.216946] (-) TimerEvent: {}
+[9.317200] (-) TimerEvent: {}
+[9.417432] (-) TimerEvent: {}
+[9.517633] (-) TimerEvent: {}
+[9.617833] (-) TimerEvent: {}
+[9.718027] (-) TimerEvent: {}
+[9.818227] (-) TimerEvent: {}
+[9.918419] (-) TimerEvent: {}
+[10.018628] (-) TimerEvent: {}
+[10.118847] (-) TimerEvent: {}
+[10.219027] (-) TimerEvent: {}
+[10.319210] (-) TimerEvent: {}
+[10.419391] (-) TimerEvent: {}
+[10.519564] (-) TimerEvent: {}
+[10.619823] (-) TimerEvent: {}
+[10.720069] (-) TimerEvent: {}
+[10.820314] (-) TimerEvent: {}
+[10.920558] (-) TimerEvent: {}
+[11.020812] (-) TimerEvent: {}
+[11.121056] (-) TimerEvent: {}
+[11.221248] (-) TimerEvent: {}
+[11.321435] (-) TimerEvent: {}
+[11.421680] (-) TimerEvent: {}
+[11.521949] (-) TimerEvent: {}
+[11.622205] (-) TimerEvent: {}
+[11.722448] (-) TimerEvent: {}
+[11.822641] (-) TimerEvent: {}
+[11.922990] (-) TimerEvent: {}
+[12.023397] (-) TimerEvent: {}
+[12.123582] (-) TimerEvent: {}
+[12.223777] (-) TimerEvent: {}
+[12.323936] (-) TimerEvent: {}
+[12.424118] (-) TimerEvent: {}
+[12.524296] (-) TimerEvent: {}
+[12.624472] (-) TimerEvent: {}
+[12.724646] (-) TimerEvent: {}
+[12.824824] (-) TimerEvent: {}
+[12.924977] (-) TimerEvent: {}
+[13.025144] (-) TimerEvent: {}
+[13.125299] (-) TimerEvent: {}
+[13.225435] (-) TimerEvent: {}
+[13.325603] (-) TimerEvent: {}
+[13.425840] (-) TimerEvent: {}
+[13.526011] (-) TimerEvent: {}
+[13.626193] (-) TimerEvent: {}
+[13.726382] (-) TimerEvent: {}
+[13.826596] (-) TimerEvent: {}
+[13.851511] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Linking CXX executable unitree_lidar_ros2_node\n'}
+[13.926761] (-) TimerEvent: {}
+[14.026932] (-) TimerEvent: {}
+[14.127242] (-) TimerEvent: {}
+[14.227920] (-) TimerEvent: {}
+[14.328538] (-) TimerEvent: {}
+[14.428757] (-) TimerEvent: {}
+[14.528948] (-) TimerEvent: {}
+[14.624384] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[14.629002] (-) TimerEvent: {}
+[14.632957] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[14.633528] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[14.640491] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2'], 'cwd': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3439-0-calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB_TIME207788', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'GZ_SIM_RESOURCE_PATH': '/home/calebcamargo/proyects/quadruped/testURDF/cheetah/mini-cheetah-gazebo-urdf/yobo_model:/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'calebcamargo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/calebcamargo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/calebcamargo/.nvm/versions/node/v22.15.0/bin', 'NVM_INC': '/home/calebcamargo/.nvm/versions/node/v22.15.0/include/node', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'MANAGERPID': '2891', 'SYSTEMD_EXEC_PID': '3439', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/calebcamargo/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9235', 'NVM_DIR': '/home/calebcamargo/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'CLAUDE_CODE_EFFORT_LEVEL': 'max', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'calebcamargo', 'JOURNAL_STREAM': '10:20118', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'calebcamargo', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/home/calebcamargo/miniconda3/condabin:/home/calebcamargo/.local/bin:/home/calebcamargo/.nvm/versions/node/v22.15.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/calebcamargo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/calebcamargo/.dotnet/tools', 'SESSION_MANAGER': 'local/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:@/tmp/.ICE-unix/3294,unix/calebcamargo-ASUS-TUF-Gaming-F15-FX506HCB:/tmp/.ICE-unix/3294', 'INVOCATION_ID': '9777ed1b256d4e23911d3b87bb41689d', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'max', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'CLAUDE_PID': '10827', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/calebcamargo/.cache/dotnet_bundle_extract', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WW1XS3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/calebcamargo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:01e150e2-6ec0-48ff-8e4c-941d2735837e', 'ANTHROPIC_AUTH_TOKEN': 'sk-2ba42cc3006d4d7d80fe2a2c586b15b5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': '349a1069-fda3-493d-9005-5eaaf762580d', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/calebcamargo/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/calebcamargo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/calebcamargo/.local/share/claude/versions/2.1.220', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CLAUDE_CODE_SUBAGENT_MODEL': 'deepseek-v4-flash', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.646448] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.646735] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.646981] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[14.653944] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[14.660516] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[14.666942] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[14.673015] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[14.679056] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[14.685034] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[14.691078] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[14.697370] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[14.703456] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[14.709553] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[14.715599] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[14.721757] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[14.728859] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[14.729006] (-) TimerEvent: {}
+[14.736839] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[14.745563] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[14.753030] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[14.760708] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[14.768526] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[14.776272] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[14.776653] (-) EventReactorShutdown: {}
