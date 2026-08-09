@@ -4,7 +4,7 @@
 
 LIDAR_IP="${1:-192.168.1.62}"
 LOCAL_IP="${2:-192.168.1.2}"
-IFACE="enp3s0"
+IFACE="enP8p1s0"
 
 echo "🔌 Configurando conexión con LiDAR L2..."
 

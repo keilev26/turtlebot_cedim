@@ -1,8 +1,8 @@
-# Install script for directory: /home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2
+# Install script for directory: /home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2")
+  set(CMAKE_INSTALL_PREFIX "/home/cedim/turtlebot_proyecto/install/unitree_lidar_ros2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,8 +42,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

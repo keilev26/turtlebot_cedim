@@ -1,1 +1,1 @@
-/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.zsh
+/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.zsh
