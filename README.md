@@ -38,6 +38,12 @@ turtlebot_proyecto/                    # ROS2 workspace + SDK integrado
 ## Quick Start
 
 ```bash
+# Si es la primera vez
+colcon build --symlink-install
+./setup_env.sh # Previamente dar permisos con chmod 777 
+```
+
+```bash
 # 1. Conectar y configurar
 source connect_lidar.sh
 

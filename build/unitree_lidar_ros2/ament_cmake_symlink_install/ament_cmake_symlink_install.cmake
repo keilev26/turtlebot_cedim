@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/cedim/turtlebot_proyecto/install/unitree_lidar_ros2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/cedim/turtlebot_proyecto/install/unitree_lidar_ros2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/cedim/turtlebot_proyecto/install/unitree_lidar_ros2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/calebcamargo/proyects/Unitree/lidar_ws/install/unitree_lidar_ros2/${destination}")
+      set(destination "/home/cedim/turtlebot_proyecto/install/unitree_lidar_ros2/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,49 +316,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "unitree_lidar_ros2_node" "DESTINATION" "lib/unitree_lidar_ros2")
-include("/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "rviz/view.rviz" "launch/launch.py" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "rviz/view.rviz" "launch/launch.py" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "rviz/view.rviz" "launch/launch.py" "DESTINATION" "share/unitree_lidar_ros2")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
+# install(FILES "/home/cedim/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
+# install(FILES "/home/cedim/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/unitree_lidar_ros2/environment")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/unitree_lidar_ros2/environment")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/unitree_lidar_ros2")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/unitree_lidar_ros2")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/unitree_lidar_ros2")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/unitree_lidar_ros2")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/unitree_lidar_ros2")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/unitree_lidar_ros2")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/unitree_lidar_ros2")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/unitree_lidar_ros2")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/unitree_lidar_ros2")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/unitree_lidar_ros2")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/packages/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/packages/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/packages/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_index/share/ament_index/resource_index/packages/unitree_lidar_ros2" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config.cmake" "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config-version.cmake" "DESTINATION" "share/unitree_lidar_ros2/cmake")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config.cmake" "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config-version.cmake" "DESTINATION" "share/unitree_lidar_ros2/cmake")
+# install(FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config.cmake" "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config-version.cmake" "DESTINATION" "share/unitree_lidar_ros2/cmake")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config.cmake" "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/ament_cmake_core/unitree_lidar_ros2Config-version.cmake" "DESTINATION" "share/unitree_lidar_ros2/cmake")
 
-# install(FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2/package.xml" "DESTINATION" "share/unitree_lidar_ros2")
-ament_cmake_symlink_install_files("/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2" FILES "/home/calebcamargo/proyects/Unitree/lidar_ws/src/unitree_lidar_ros2/package.xml" "DESTINATION" "share/unitree_lidar_ros2")
+# install(FILES "/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2/package.xml" "DESTINATION" "share/unitree_lidar_ros2")
+ament_cmake_symlink_install_files("/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2" FILES "/home/cedim/turtlebot_proyecto/src/unitree_lidar_ros2/package.xml" "DESTINATION" "share/unitree_lidar_ros2")

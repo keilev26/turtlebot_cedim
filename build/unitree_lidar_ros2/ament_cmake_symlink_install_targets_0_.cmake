@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/calebcamargo/proyects/Unitree/lidar_ws/build/unitree_lidar_ros2/unitree_lidar_ros2_node" "TARGETS" "unitree_lidar_ros2_node" "DESTINATION" "lib/unitree_lidar_ros2")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cedim/turtlebot_proyecto/build/unitree_lidar_ros2/unitree_lidar_ros2_node" "TARGETS" "unitree_lidar_ros2_node" "DESTINATION" "lib/unitree_lidar_ros2")
